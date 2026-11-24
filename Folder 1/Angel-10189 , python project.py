@@ -11,7 +11,7 @@ except FileNotFoundError:
     print("File not found")
     exit()
 
-# 3. Storing marks
+#  Storing marks
 marks = []
 
 for i in range(len(df)):
@@ -27,7 +27,7 @@ for i in range(len(df)):
     else:
         marks.append(m)
 
-# 4. Check  marks are valid or not
+#  Check  marks are valid or not
 if len(marks) == 0:
     print("No valid marks found . Nothing to analyse.")
 
