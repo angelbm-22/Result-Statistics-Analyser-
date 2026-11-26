@@ -61,7 +61,7 @@ else:
             if total == 1:
                 sd = 0
             else:
-                sd = np.std(marks, ddof=1)
+                sd = np.std(marks)
 
             print("Standard deviation:", round(sd, 2))
             print("Pass percentage:", round(passed*100/total, 2), "%")
